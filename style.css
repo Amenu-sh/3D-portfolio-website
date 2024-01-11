@@ -289,11 +289,6 @@ body {
 }
 .skills-box .skills-content {
   flex: 1 1 20rem;
-  /* border: var(--border);
-  border-radius: 0.5rem;
-  text-align: center;
-  padding: 0.8rem 0.5rem 1.1rem;
-  transition: 0.3s ease; */
 }
 .skills-content h3 {
   font-size: 1.3rem;
@@ -429,4 +424,12 @@ body {
   opacity: 1;
   transform: translateX(-50%) scale(1);
   top: -1.8rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 60rem;
+    height: 40rem;
+  }
 }
